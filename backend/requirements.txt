@@ -1,6 +1,27 @@
 fastapi
-uvicorn
-pydantic
-scikit-learn
-numpy
+uvicorn[standard]
+
+# Database
+sqlalchemy
+
+# Auth / Security
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Environment variables
+python-dotenv
+
+# HTTP requests
 requests
+
+# URL & scam analysis
+tldextract
+
+# Machine Learning (for scam model)
+scikit-learn
+joblib
+numpy
+pandas
+
+# CORS support (usually comes with FastAPI, but safe)
+python-multipart

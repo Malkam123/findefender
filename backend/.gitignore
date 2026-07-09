@@ -1,0 +1,32 @@
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Environment
+backend/.env
+.env
+
+# ML cache
+.ipynb_checkpoints/
+
+# Node
+frontend/node_modules/
+
+# Build
+dist/
+build/
+
+# Database
+*.db
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
